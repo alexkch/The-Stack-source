@@ -94,10 +94,10 @@ Meteor.startup(function() {
                        <p> We can also use a function call within a function. All you need to know is that the function call, in this case Strlen, returns an integer back \
                        to us. We can make use of this information that the function gave us and preform many tasks with it. <br> </p> \
                        <p><em>Game Format:</em> To complete this level, you must organize the lines of code in a way that the code is legal and will not produce any compiler errors</p><br> \
-                       <p> The given INPUT into the function: "coding" \
+                       <p> The given INPUT into the function: "coding" EXPECTED OUTPUT: 6 \
                        </div>',
            code: ["function(str word):", "int numofletters;", "numofletters = strlen(word);"
-           , "return ;"],
+           , "return numofletters;"],
            createdAt: new Date()
        });
 
@@ -118,6 +118,29 @@ Meteor.startup(function() {
            , "return x;"],
            createdAt: new Date()
        });
+
+
+      
+      Challenge.insert({
+           domain: 'Sorting',
+           subdomain: 1,
+           level: 5,
+           title: 'Introduction to coding IV',
+           problem: '<div class="msB"><p><strong>Introduction II</strong> <br> \
+                       <p> For this task, We will be introducing the "if and else" statements. If and Else are logical checks that happens inside a function that allows us to do different things based \
+                       on certain conditions. For example, "I will only eat IF I am hungry, Else I will go sleep". This plain english sentence is an example of the if and else statement. If I was hungry, then \
+                       it would be true, which means I would go eat, however If I was not hungry, or FALSE, then I would go to sleep. Similarily, you can also do condition checks when you code too, such as  \
+                       checking if an integer is bigger then another integer. (For example, if ( 2 > 1) ) This would always be true, which means you would go down the IF route. </p>
+                       <p><strong>The Task</strong> </p> <br> \
+                       <p>This challenge will require you to use IF and ELSE statements to give the correct output </p>
+                       <p> HINT: In C: If and Else statements are enclosed in { } curly brackets, the other statements inside still need the semi-colon as correct syntax </p>
+                       <p>INPUT: 30, EXPECTED OUTPUT: False</p>
+                       </div>',
+           code: ["function(int x):", "int y = 10;", " if ( x < y ) { return True; }",  
+           , " else { return False; }" ],
+           createdAt: new Date()
+       });
+
 
 
     }
