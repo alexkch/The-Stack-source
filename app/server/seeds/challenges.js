@@ -57,7 +57,7 @@ Meteor.startup(function() {
            domain: 'Sorting',
            subdomain: 1,
            level: 2,
-           title: 'Introduction to coding',
+           title: 'Introduction to coding I',
            problem: '<div class="msB"><p><strong>Introduction</strong> <br> \
                        Programming is not something that can be learned in a day, rather it takes months and years to fully master and understand code. We will now begin to educate you on \
                        the basics of coding, using "psudedo code" (pretend code, its easier to understand this before moving onto actual syntax) to demonstrate basic code structure!</p> \
@@ -72,7 +72,7 @@ Meteor.startup(function() {
                         <p> The "return" keyword basically signifies the end of a function. You can choose to return back a specific value back to the "caller" of the function </p> \
                        <p><em>Game Format:</em> To complete this level, you must organize the lines of code in a way that the code is legal and will not produce any compiler errors.</p> \
                        </div>',
-           code: ["basicfunction(int x):", "int a;", "int b;", "a = 100;"
+           code: ["function(int x):", "int a;", "int b;", "a = 100;"
            , "b = a + x;", "return b;"],
            createdAt: new Date()
        });
@@ -84,9 +84,9 @@ Meteor.startup(function() {
            domain: 'Sorting',
            subdomain: 1,
            level: 3,
-           title: 'Introduction to coding',
+           title: 'Introduction to coding II',
            problem: '<div class="msB"><p><strong>Introduction II</strong> <br> \
-                       For the second task, we will be dealing with function calls and strings. Strings are basically an assortment of single character, otherwise known as words in the english language.\
+                       <p>For the second task, we will be dealing with function calls and strings. Strings are basically an assortment of single character, otherwise known as words in the english language.\
                        String behaviour varies for each programing language; in this level, we will inherit the behaviour of strings in C (programming language) \
                        <p><strong>The task</strong> <br> \
                        <p>This challenge will use the function call strlen from C. Strlen takes a string as its "input" or parameter, and number of letters in the string; for more information \
@@ -98,6 +98,24 @@ Meteor.startup(function() {
                        </div>',
            code: ["function(str word):", "int numofletters;", "numofletters = strlen(word);"
            , "return ;"],
+           createdAt: new Date()
+       });
+
+
+      Challenge.insert({
+           domain: 'Sorting',
+           subdomain: 1,
+           level: 4,
+           title: 'Introduction to coding III',
+           problem: '<div class="msB"><p><strong>Introduction II</strong> <br> \
+                       <p> For this task, We will be helping you cement your knowledge of functions. Remember that the function is like a factory. Given an input, the function can do all sorts of stuff with said input \
+                       and return back an output or manipulate and change the input </p>
+                       <p><strong>The Task</strong> </p> <br> \
+                       <p>This challenge will require you to take an integer INPUT, and order the lines of code to give us the wanted OUTPUT (HINT: Remember to declare the variables first before using it!) </p>
+                       <p>INPUT: 0, EXPECTED OUTPUT: 45</p>
+                       </div>',
+           code: ["function(int x):", "int y = 10;", "int z = 30;", "int a;", "a = 5;", "a = a * a;", "x = a + (z - y);"
+           , "return x;"],
            createdAt: new Date()
        });
 
