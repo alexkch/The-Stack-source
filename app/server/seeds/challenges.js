@@ -61,7 +61,7 @@ Meteor.startup(function() {
            problem: '<div class="msB"><p><strong>Introduction</strong> <br> \
                        Programming is not something that can be learned in a day, rather it takes months and years to fully master and understand code. We will now begin to educate you on \
                        the basics of coding, using "psudedo code" (pretend code, its easier to understand this before moving onto actual syntax) to demonstrate basic code structure!</p> \
-                       <p><strong></strong> <br> \
+                       <p><strong>The task</strong> <br> \
                        These challenges will cover basic code structure </p> \
                        <p><strong>Introduction to Functions</strong> <br> \
                           A function in programming is sort of like a factory. It takes in a particular "input", and returns out a particular "output". The format for most functions follow this:</p> \
@@ -70,10 +70,34 @@ Meteor.startup(function() {
                        for integer. Usually languages require you to list in the type of input you give into the function. Also note that depending on the coding language you use, functions may look different depending on the language. </p> \
                        <p> For variables inside the function, you are also required to list out their "type" </p> \
                         <p> The "return" keyword basically signifies the end of a function. You can choose to return back a specific value back to the "caller" of the function </p> \
-                       <p><em>Game Format:</em> To complete this level, you must organize the lines of code in a way that the code is legal and will run.</p> \
+                       <p><em>Game Format:</em> To complete this level, you must organize the lines of code in a way that the code is legal and will not produce any compiler errors.</p> \
                        </div>',
            code: ["basicfunction(int x):", "int a;", "int b;", "a = 100;"
            , "b = a + x;", "return b;"],
+           createdAt: new Date()
+       });
+
+
+
+
+       Challenge.insert({
+           domain: 'Sorting',
+           subdomain: 1,
+           level: 3,
+           title: 'Introduction to coding',
+           problem: '<div class="msB"><p><strong>Introduction II</strong> <br> \
+                       For the second task, we will be dealing with function calls and strings. Strings are basically an assortment of single character, otherwise known as words in the english language.\
+                       String behaviour varies for each programing language; in this level, we will inherit the behaviour of strings in C (programming language) \
+                       <p><strong>The task</strong> <br> \
+                       <p>This challenge will use the function call strlen from C. Strlen takes a string as its "input" or parameter, and number of letters in the string; for more information \
+                       <br> click here <a href="http://www.cplusplus.com/reference/cstring/strlen/">Strlen</a> </p> \
+                       <p> We can also use a function call within a function. All you need to know is that the function call, in this case Strlen, returns an integer back \
+                       to us. We can make use of this information that the function gave us and preform many tasks with it. <br> </p> \
+                       <p><em>Game Format:</em> To complete this level, you must organize the lines of code in a way that the code is legal and will not produce any compiler errors</p><br> \
+                       <p> The given INPUT into the function: "coding" \
+                       </div>',
+           code: ["function(str word):", "int numofletters;", "numofletters = strlen(word);"
+           , "return ;"],
            createdAt: new Date()
        });
 
