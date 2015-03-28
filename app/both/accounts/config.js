@@ -7,7 +7,8 @@ AccountsTemplates.configureRoute('signIn', {
         if (Roles.userIsInRole(user, ['admin','manage-users']))
           Router.go('/admin');
         else
-          Router.go('/user/' + user._id);
+          //Router.go('/user/' + user._id); *NEED TO FIX THIS SO IT WORKS*
+			Router.go('/domains');
     },
     layoutTemplate: 'appLayout'
 });
