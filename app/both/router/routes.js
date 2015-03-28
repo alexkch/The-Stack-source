@@ -1,7 +1,7 @@
 Router.route('/', {
   name: 'home'
 });
-
+Router.route('/admin');
 Router.route('/dashboard');
 Router.route('/domains', function(){
     this.render('domains');
