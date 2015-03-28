@@ -3,7 +3,22 @@ DomainsController = AppController.extend({
     return this.subscribe('challenge');
   },
   data: {
-    sorting: Challenge.find({ domain: 'Sorting'}),
+    // Sorting
+    sortingOne: Challenge.find({ domain: 'Sorting', level: 1} , {sort: {section: 1}}),
+    sortingTwo: Challenge.find({ domain: 'Sorting', level: 2}, {sort: {section: 1}}),
+    sortingThree: Challenge.find({ domain: 'Sorting', level: 3}, {sort: {section: 1}}),
+    sortingFour: Challenge.find({ domain: 'Sorting', level: 4}, {sort: {section: 1}}),
+    sortingOneCompletion: function(){
+        var challenges = Challenge.find({ domain: 'Sorting', level: 1});
+
+
+
+    },
+
+    // Dynamic Programming
+
+
+
 
   },
   onBeforeAction: function (pause) {

@@ -2,11 +2,31 @@ Template.challenge.helpers({
     getArray: function() {
       var self = this;
       self.code = self.code || [];
+
       return _.map(self.code, function(value, index){
         return {value: value, index: index};
       });
-    }
+    },
+
+    setCompleted: function (){
+        var _id = Session.get('game_id');
+
+        // set completed for this user
+        Meteor.users.update({_id: Meteor.userId()}, {$addToSet: {completedLevels: _id}});
+        console.log(Meteor.user());
+
+
+    },
+
+
+
 });
+
+// Template.challenge.events({
+//   'click .run-btn': function () {
+//     Users.update(this._id, {$inc: {score: 2}});
+//   }
+// });
 
 
 Template.challenge.rendered = function() {
@@ -98,8 +118,10 @@ Template.challenge.rendered = function() {
     }
 
 
-
-
+    // ===========
+    // Evaluates the game state condition
+    //
+    // ===========
     $('.run-btn').click(function(){
 
         // check game state to verify if correct or not.
@@ -118,9 +140,27 @@ Template.challenge.rendered = function() {
         }
         console.log('num: '+num+'exp: '+exp_blocks);
 
-        return (num == exp_blocks) ? $("#game_status_correct").show() : $("#game_status_incorrect").show();
+        if (num == exp_blocks){
+
+            $("#game_status_correct").show();
+
+
+        } else {
+            $("#game_status_incorrect").show()
+
+
+
+        }
+        // console.log("id :"+this._id+"\n");
+        //
+        Template.challenge.__helpers.get('setCompleted')();
+        // setCompleted();
     });
 
+    // ===========
+    // Block dropped on game board.
+    //
+    // ===========
     $("#block_area").droppable({
         drop: function(event,ui){
             var row = $(ui.draggable).data('currentRow');

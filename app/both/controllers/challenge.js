@@ -12,6 +12,7 @@ ChallengeController = AppController.extend({
   },
   onBeforeAction: function (pause) {
     AccountsTemplates.ensureSignedIn.call(this, pause);
+    Session.set('game_id', this.params._id);
   },
   onAfterAction: function () {
     Meta.setTitle('Challenge');
