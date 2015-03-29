@@ -55,10 +55,6 @@ body {
     background-color: rgba(255,255,255,0.8);
 }
 
-/* Custom Horizontal Rule */
-
-
-
 
 /* Header */
 
@@ -74,27 +70,8 @@ body {
     -o-background-size: cover;
 }
 
-/* Img 3 */
 
 
-
-.loginbtnpadding{
-
-	padding-top: 155px;
-	padding-left: 1210px;
-
-}
-
-.textformat {
-	text-align: left;
-
-}
-
-/* About */
-
-.whitespace {
-    padding: 15px 0;
-}
 
 /* Services */
 
@@ -119,15 +96,6 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
-
-.placement {
-    display: table;
-    width: 100%;
-    height: 400px;
-    color: #fff;
-}
-
-
 
 
 /* Footer */
