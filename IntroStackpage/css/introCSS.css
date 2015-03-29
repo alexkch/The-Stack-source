@@ -11,31 +11,23 @@ body {
 }
 
 
-.align-Intro {
+.v-align {
     display: table-cell;
     position: relative;
-    left: 1100px;
     top: 600px;
+    left: 300px;
 }
 
-.vertical-center {
-    margin: 0;
-    padding: 0;
+.v-align2 {
     position: relative;
-    vertical-align: center;
+    top: 110px;
+    left: 95px;
+
 }
+
 
 /* Custom Button Styles */
 
-
-.btn-xlarge {
-    padding: 18px 38px;
-    font-size: 80px; 
-    line-height: normal;
-    -webkit-border-radius: 8px;
-       -moz-border-radius: 8px;
-            border-radius: 8px;
-}
 
 .btn-dark {
     border-radius: 0;
@@ -84,19 +76,6 @@ body {
 
 /* Img 3 */
 
-.img3 {
-
-    display: table;
-    position: relative;
-	height: 100%;
-	width: 100%;
- 	background-position:right top;
-	background: url("img/1.jpg");
-	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 
 .loginbtnpadding{
