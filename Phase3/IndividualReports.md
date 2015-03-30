@@ -8,7 +8,6 @@ Calvin Cheng (calKK)
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-
 Joanne Chia An Weng (joanne0302)
 * For the coding portion, Alex and I worked together and built the Domain Page. As well, I helped integrate code into the main code since most people cannot installed meteor on their laptop.
 * While working on the project, I learned how to used Meteor and Git commands.
@@ -55,10 +54,3 @@ Andrew Trotter (atrotter)
 * My main strength as a team member is working with other members on their own level, by adjusting my own work routine and adapting to mesh better with the work styles of others.
 * I think I could improve mostly with more frequent and involved communication with other members. I think I spent more time making up for lack of coordination than I should have to.
 
-----------------------------------------------------------------------------------------------------------------------------
-Name (GitHub Username)
-* What is your most significant individual contribution?
-* Tell us about a new technical concept/issue that you learned while working on the project.
-* What is your main strength(s) as a team member?
-* What is your main weakness(es) as a team member? (i.e. Where do you think you can/should improve?)
-----------------------------------------------------------------------------------------------------------------------------
