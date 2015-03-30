@@ -1,18 +1,17 @@
 Individual Reports
 
 Calvin Cheng (calKK)
-* I handled the revamp of the UI for phase 3, and the integration of the backend data to the front-end UI. Also defining the routes for the application. I also implemented the tracking of user state/progression and closed the issue with the game evaluation not correctly evaluating.
-* I got to learn to use the Meteor framework, which is a new technology that i've been wanting to work with for a while now. It is a very simple to use and just awesome framework that I would definetly recommend to anyone who is looking to create Single Page Web applications.
+* I handled the revamp of the UI for phase 3, and the integration of the back-end data to the front-end UI. Also defining the routes for the application. I also implemented the tracking of user state/progression.
+* I got to learn to use the Meteor framework, which is a new technology that I've been wanting to work with for a while now. It is a very simple to use and just awesome framework that I would definitely recommend to anyone who is looking to create Single Page Web applications. 
 * I think my main strength is my previous background knowledge of web development, and being able to give clear and concise explanations to technical problems my team members had issues with and also being able to drive the vision of the project.
-* My weakness as a team member would be in delegating tasks, there were definetly times when the work was not evenly distributed, and me as the designated 'scrum leader' should have been more on top of that.
+* My weakness as a team member would be in delegating tasks, there were definitely times when the work was not evenly distributed, and as the designated 'scrum leader', I should have been more on top of that.
 
 ----------------------------------------------------------------------------------------------------------------------------
-
 
 Joanne Chia An Weng (joanne0302)
 * For the coding portion, Alex and I worked together and built the Domain Page. As well, I helped integrate code into the main code since most people cannot installed meteor on their laptop.
 * While working on the project, I learned how to used Meteor and Git commands.
-* I always try to keep up a good communication with the team. Making sure that I’m on track with everyone, as well making sure that everyone knows what I am doing. As well, I was willing to help out others when they are having difficulties with their part.
+* I always try to keep up a good communication with the team. Making sure that I’m on track with everyone, as well making sure that everyone knows what I am doing. As well, I was willing to help out others when they were having difficulties with their part.
 * I could of improve on my coding skill more. When we were meeting together to work on the project, a lot of time I need to take some time understanding what’s going on first before I can start helping.
 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -55,10 +54,3 @@ Andrew Trotter (atrotter)
 * My main strength as a team member is working with other members on their own level, by adjusting my own work routine and adapting to mesh better with the work styles of others.
 * I think I could improve mostly with more frequent and involved communication with other members. I think I spent more time making up for lack of coordination than I should have to.
 
-----------------------------------------------------------------------------------------------------------------------------
-Name (GitHub Username)
-* What is your most significant individual contribution?
-* Tell us about a new technical concept/issue that you learned while working on the project.
-* What is your main strength(s) as a team member?
-* What is your main weakness(es) as a team member? (i.e. Where do you think you can/should improve?)
-----------------------------------------------------------------------------------------------------------------------------
