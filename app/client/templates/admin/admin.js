@@ -2,7 +2,7 @@ Template.admin.events({
 	"submit .new-question": function (event) {
 		event.preventDefault();
 		console.log("Yes the event gets called");
-		var domain = parseInt(event.target.domain.value, 10);
+		var domain = event.target.domain.value;
 		var subdomain = parseInt(event.target.subdomain.value, 10);
 		var level = parseInt(event.target.level.value, 10);
 		var section = parseInt(event.target.section.value, 10);
