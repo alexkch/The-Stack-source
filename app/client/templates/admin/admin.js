@@ -9,8 +9,8 @@ Template.admin.events({
 		var title = event.target.title.value;
 		var problem = event.target.problem.value;
 		var code = event.target.code.value.split("\n");
-		
-		Challenges.insert( {
+
+		Challenge.insert( {
 			domain: domain,
 			subdomain: subdomain,
 			level: level,
@@ -20,7 +20,7 @@ Template.admin.events({
 			code: code,
 			createdAt: new Date() // current time
 		});
-		
+
 		//clear fields
 		event.target.domain.value = "";
 		event.target.subdomain.value = "";
@@ -29,7 +29,7 @@ Template.admin.events({
 		event.target.title.value = "";
 		event.target.problem.value = "";
 		event.target.code.value = "";
-		
+
 		console.log("New question inserted into database.");
 		return false;
 	}
