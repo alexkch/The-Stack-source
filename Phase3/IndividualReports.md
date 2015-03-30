@@ -47,6 +47,13 @@ Joseph Lee (josephlee427)
 * My strength is that I am always willing to learn, therefore always am willing to take on any task as I feel that it would be beneficial in the future. I am also open-minded and would always welcome suggestions and feedback if anyone had anything to say.
 * As a team member, my weakness would include my lack of knowledge in some of the languages. I also feel like I could have been more attentive in the meetings and put more input, but I was a little bit lost as I did not have that much experience in these kinds of environments.
 
+----------------------------------------------------------------------------------------------------------------------------
+
+Andrew Trotter (atrotter)
+* My most significant individual contribution is the admin challenge submission page and associated methods.
+* The most interesting new concept I learned was the different ways to use html templates to display a webpage dynamically.
+* My main strength as a team member is working with other members on their own level, by adjusting my own work routine and adapting to mesh better with the work styles of others.
+* I think I could improve mostly with more frequent and involved communication with other members. I think I spent more time making up for lack of coordination than I should have to.
 
 ----------------------------------------------------------------------------------------------------------------------------
 Name (GitHub Username)
