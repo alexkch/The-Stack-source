@@ -31,10 +31,18 @@ Alex Chang (alexkch)
 * My main weakness was that I was not very experience in web design, and often had to look up and learn much of coding online.
 
 ----------------------------------------------------------------------------------------------------------------------------
+
+Joseph Lee (josephlee427)
+* The significant contributions include the game mechanics -- by prodding around and trying to learn a way to have the block of codes being stacked up, as well as coming up with some problems for the game.
+* This was the first time I used git, and although it is a bit similar to subversion, it still took some time to get used to the git commands. In addition, it was my first big group assignment, and first time working with Meteor/HTML/PHP/ any web development. I also learned that Windows has a lot of problems with programs that help with development.
+* My strength is that I am always willing to learn, therefore always am willing to take on any task as I feel that it would be beneficial in the future. I am also open-minded and would always welcome suggestions and feedback if anyone had anything to say.
+* As a team member, my weakness would include my lack of knowledge in some of the languages. I also feel like I could have been more attentive in the meetings and put more input, but I was a little bit lost as I did not have that much experience in these kinds of environments.
+
+
+----------------------------------------------------------------------------------------------------------------------------
 Name (GitHub Username)
 * What is your most significant individual contribution?
 * Tell us about a new technical concept/issue that you learned while working on the project.
 * What is your main strength(s) as a team member?
 * What is your main weakness(es) as a team member? (i.e. Where do you think you can/should improve?)
 ----------------------------------------------------------------------------------------------------------------------------
-Name (GitHub Username)
