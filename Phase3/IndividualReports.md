@@ -1,8 +1,8 @@
 Individual Reports
 
 Calvin Cheng (calKK)
-* I handled the revamp of the UI for phase 3, and the integration of the backend data to the front-end UI. Also defining the routes for the application. I also implemented the tracking of user state/progression.
-* I got to learn to use the Meteor framework, which is a new technology that i've been wanting to work with for a while now. It is a very simple to use and just awesome framework that I would definetly recommend to anyone who is looking to create Single Page Web applications. 
+* I handled the revamp of the UI for phase 3, and the integration of the backend data to the front-end UI. Also defining the routes for the application. I also implemented the tracking of user state/progression and closed the issue with the game evaluation not correctly evaluating.
+* I got to learn to use the Meteor framework, which is a new technology that i've been wanting to work with for a while now. It is a very simple to use and just awesome framework that I would definetly recommend to anyone who is looking to create Single Page Web applications.
 * I think my main strength is my previous background knowledge of web development, and being able to give clear and concise explanations to technical problems my team members had issues with and also being able to drive the vision of the project.
 * My weakness as a team member would be in delegating tasks, there were definetly times when the work was not evenly distributed, and me as the designated 'scrum leader' should have been more on top of that.
 
