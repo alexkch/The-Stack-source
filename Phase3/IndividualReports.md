@@ -1,4 +1,4 @@
-Individual Reports
+﻿Individual Reports
 
 Calvin Cheng (calKK)
 * I handled the revamp of the UI for phase 3, and the integration of the back-end data to the front-end UI. Also defining the routes for the application. I also implemented the tracking of user state/progression.
@@ -36,7 +36,7 @@ Alex Chang (alexkch)
 * My most significant contribution to the project was developing our level design UI, and also making interactive webpages for parts of our website.
 * I learned about the use of git and working with multiple people on a large scale team projects; particularly about the effects of git and how it allows different members of the team to work together with the same code. I also gained valuable experience in web programming, particularly in the use of Javascript and styling with css.
 * My main strength as a team member was that I was willing to cooperate with my team members, such as being able to take suggestions from team members and incorporating it into my work, as well as giving constructive criticism and opinions on certain tasks.
-* My main weakness was that I was not very experience in web design, and often had to look up and learn much of coding online.
+* My main weakness was that I was not very experienced in web design, often making small problems like syntax errors. Although I did contribute to the coding, i felt that the lack of experience was a factor in my work.
 
 ----------------------------------------------------------------------------------------------------------------------------
 
