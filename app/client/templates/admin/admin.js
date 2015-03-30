@@ -10,16 +10,7 @@ Template.admin.events({
 		var problem = event.target.problem.value;
 		var code = event.target.code.value.split("\n");
 		
-		Challenges.insert( {
-			domain: domain,
-			subdomain: subdomain,
-			level: level,
-			section: section,
-			title: title,
-			problem: problem,
-			code: code,
-			createdAt: new Date() // current time
-		});
+		Meteor.call("addChallenge", domain, subdomain, level, section, title, problem, code);
 		
 		//clear fields
 		event.target.domain.value = "";
