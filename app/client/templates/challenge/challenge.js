@@ -9,24 +9,11 @@ Template.challenge.helpers({
     },
 
     setCompleted: function (){
-        var _id = Session.get('game_id');
-
-        // set completed for this user
-        Meteor.users.update({_id: Meteor.userId()}, {$addToSet: {completedLevels: _id}});
-        console.log(Meteor.user());
-
-
+        Meteor.call("setCompleted", Session.get('game_id'));
     },
-
-
 
 });
 
-// Template.challenge.events({
-//   'click .run-btn': function () {
-//     Users.update(this._id, {$inc: {score: 2}});
-//   }
-// });
 
 
 Template.challenge.rendered = function() {
@@ -141,20 +128,11 @@ Template.challenge.rendered = function() {
         console.log('num: '+num+'exp: '+exp_blocks);
 
         if (num == exp_blocks){
-
+            Template.challenge.__helpers.get('setCompleted')();
             $("#game_status_correct").show();
-
-
         } else {
             $("#game_status_incorrect").show()
-
-
-
         }
-        // console.log("id :"+this._id+"\n");
-        //
-        Template.challenge.__helpers.get('setCompleted')();
-        // setCompleted();
     });
 
     // ===========
