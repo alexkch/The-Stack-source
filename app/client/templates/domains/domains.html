@@ -51,7 +51,7 @@
                                               <!-- Dont know how to connect progress bar to meteor database, if someone knows how i can make the js file for this : Alex -->
                                               <div class="progress">
                                                 <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{sortingOneCompletion}}%;">
-                                                    <span class="sr-only">% Complete</span>
+                                                    <span class="sr-only">{{ sortingOneCompletion }}% Complete</span>
                                                 </div>
                                               </div>
 
@@ -87,15 +87,15 @@
 
                                               <!-- Dont know how to connect progress bar to meteor database, if someone knows how i can make the js file for this : Alex -->
                                               <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                                    <span class="sr-only">60% Complete</span>
+                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{sortingTwoCompletion}}%;">
+                                                    <span class="sr-only">{{ sortingTwoCompletion }}% Complete</span>
                                                 </div>
                                               </div>
 
 
 
                                               <div class="row">
-                                                <div class="col-md-4"><b>60%</b><br/><small>Completed</small></div>
+                                                <div class="col-md-4"><b>{{sortingTwoCompletion}}%</b><br/><small>Completed</small></div>
                                                 <div class="col-md-4"></div>
                                                 <div class="col-md-4"><i class="fa fa-trophy"></i><br><i class="fa fa-star"></i></div>
 
@@ -122,21 +122,20 @@
                                             <div class="modal-footer" style="text-align: left">
 
 
-                                              <!-- Dont know how to connect progress bar to meteor database, if someone knows how i can make the js file for this : Alex -->
-                                              <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                                    <span class="sr-only">60% Complete</span>
+                                                <div class="progress">
+                                                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{sortingThreeCompletion}}%;">
+                                                      <span class="sr-only">{{ sortingThreeCompletion }}% Complete</span>
+                                                  </div>
                                                 </div>
-                                              </div>
 
 
 
-                                              <div class="row">
-                                                <div class="col-md-4"><b>60%</b><br/><small>Completed</small></div>
-                                                <div class="col-md-4"></div>
-                                                <div class="col-md-4"><i class="fa fa-trophy"></i><br><i class="fa fa-star"></i></div>
+                                                <div class="row">
+                                                  <div class="col-md-4"><b>{{sortingThreeCompletion}}%</b><br/><small>Completed</small></div>
+                                                  <div class="col-md-4"></div>
+                                                  <div class="col-md-4"><i class="fa fa-trophy"></i><br><i class="fa fa-star"></i></div>
 
-                                              </div>
+                                                </div>
                                             </div>
                                           </div>
                                         </li>
@@ -159,21 +158,20 @@
                                             <div class="modal-footer" style="text-align: left">
 
 
-                                              <!-- Dont know how to connect progress bar to meteor database, if someone knows how i can make the js file for this : Alex -->
-                                              <div class="progress">
-                                                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                                    <span class="sr-only">60% Complete</span>
+                                                <div class="progress">
+                                                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{sortingFourCompletion}}%;">
+                                                      <span class="sr-only">{{ sortingFourCompletion }}% Complete</span>
+                                                  </div>
                                                 </div>
-                                              </div>
 
 
 
-                                              <div class="row">
-                                                <div class="col-md-4"><b>60%</b><br/><small>Completed</small></div>
-                                                <div class="col-md-4"></div>
-                                                <div class="col-md-4"><i class="fa fa-trophy"></i><br><i class="fa fa-star"></i></div>
+                                                <div class="row">
+                                                  <div class="col-md-4"><b>{{sortingFourCompletion}}%</b><br/><small>Completed</small></div>
+                                                  <div class="col-md-4"></div>
+                                                  <div class="col-md-4"><i class="fa fa-trophy"></i><br><i class="fa fa-star"></i></div>
 
-                                              </div>
+                                                </div>
                                             </div>
                                           </div>
                                         </li>

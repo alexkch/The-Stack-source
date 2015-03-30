@@ -1,5 +1,6 @@
 DomainsController = AppController.extend({
   waitOn: function() {
+     this.subscribe('userData');
     return this.subscribe('challenge');
   },
   data: {
@@ -9,13 +10,28 @@ DomainsController = AppController.extend({
     sortingThree: Challenge.find({ domain: 'Sorting', level: 3}, {sort: {section: 1}}),
     sortingFour: Challenge.find({ domain: 'Sorting', level: 4}, {sort: {section: 1}}),
     sortingOneCompletion: function(){
-        var challenges = Challenge.find({ domain: 'Sorting', level: 1});
+        var challenges = Challenge.find({ domain: 'Sorting', level: 1}).fetch();
 
-
-
+        return progress(challenges);
     },
+    sortingTwoCompletion: function(){
+        var challenges = Challenge.find({ domain: 'Sorting', level: 2}).fetch();
+
+        return progress(challenges);
+    },
+    sortingThreeCompletion: function(){
+        var challenges = Challenge.find({ domain: 'Sorting', level: 3}).fetch();
+
+        return progress(challenges);
+    },
+    sortingFourCompletion: function(){
+        var challenges = Challenge.find({ domain: 'Sorting', level: 4}).fetch();
+
+        return progress(challenges);
+    }
 
     // Dynamic Programming
+
 
 
 
@@ -34,3 +50,22 @@ DashboardController.events({
     event.preventDefault();
   }
 });
+
+
+function progress(challenge){
+    var userCompleted = Meteor.user().completedLevels;
+
+
+    challenges = _.pluck(challenge, '_id');
+
+    var count = 0;
+
+    for(var i=0; i<userCompleted.length; i++){
+        console.log(userCompleted[i]);
+        if (_.contains(challenges, userCompleted[i]))
+            count ++;
+    }
+
+
+    return (count/challenges.length) * 100;
+}
